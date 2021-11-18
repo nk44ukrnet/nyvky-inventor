@@ -14,8 +14,3 @@ jobs:
           server: bx257846.ftp.tools
           username: bx257846_nyvky
           password: ${{ secrets.ftp_password }}
-          exclude:
-           - **/.git*
-           - **/.git*/**
-           - **/.github*
-           - **/.github*/**
